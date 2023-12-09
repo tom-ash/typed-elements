@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Typed elements for React.",
   "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./text-input": "./dist/text-input/text-input.js"
+  },
   "scripts": {
     "build": "tsc -b .",
     "prettier": "prettier . --write",
